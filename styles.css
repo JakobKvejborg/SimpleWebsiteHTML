@@ -17,11 +17,11 @@ p {
     line-height: 1.5;
 }
 
-img {
+/* img {
     width: 750px;
     height: 600px;
     border: 2px solid #ccc;
-}
+} */
 
 ul {
     list-style-type: circle;
@@ -39,4 +39,16 @@ td {
 
 th {
     background-color: #f2f2f2;
+}
+
+/* Add the styles for the gray square background */
+.background-square {
+    position: fixed;
+    top: 50%; /* Position it vertically at 50% from the top */
+    left: 50%; /* Position it horizontally at 50% from the left */
+    transform: translate(-50%, -50%); /* Center the square */
+    width: 96%; /* Adjust the width of the square */
+    height: 100%; /* Adjust the height of the square */
+    background-color: #eaeaea;
+    z-index: -1; /* Places the square behind the content */
 }
