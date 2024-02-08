@@ -2,7 +2,15 @@
 
 body {
     font-family: Arial, sans-serif;
-    margin: 60px;
+    margin: 60px; /* sets the margin left/right side */
+    background-image: url(https://www.ug.dk/sites/default/files/styles/ug3_large/public/eudu-smed-nyt-l.jpg?itok=jn8aWn1H);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.background {
+    position: relative;
 }
 
 h1 {
