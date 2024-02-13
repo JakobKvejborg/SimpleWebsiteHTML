@@ -8,6 +8,20 @@ btn1.addEventListener("click", function(e) {
     }
 });
 
+// Button 2 "Download exe"
+function downloadExe() {
+    const downloadLink = 'https://drive.usercontent.google.com/download?id=1HXMNDmrmyx77N602ivgByzXZUhKf7Dom&export=download&authuser=0&confirm=t&uuid=d83a9921-88a2-4307-b065-fcaf264f08b5&at=APZUnTUayxCXHYIW9zwnGdixotJo%3A1707840156653';
+    const link = document.createElement('a'); // this creates the download link
+    link.href = downloadLink; // this creates the download link
+    document.body.appendChild(link);
+    link.click();
+
+}
+const btn2 = document.getElementById("btn2");
+btn2.addEventListener("click", downloadExe);
+document.body.appendChild(btn2);
+
+
 // Button "Open Google in new tab"
 function openGoogle() {
     window.open('https://www.google.com', '_blank');
@@ -23,3 +37,5 @@ function openYoutube() {
 const btn5 = document.getElementById("btn5");
 btn5.addEventListener("click", openYoutube);
 document.body.appendChild(btn5);
+
+
