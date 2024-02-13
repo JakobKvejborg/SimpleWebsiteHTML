@@ -10,7 +10,7 @@ btn1.addEventListener("click", function(e) {
 
 // Button 2 "Download exe"
 function downloadExe() {
-    const downloadLink = 'https://drive.usercontent.google.com/download?id=1HXMNDmrmyx77N602ivgByzXZUhKf7Dom&export=download&authuser=0&confirm=t&uuid=d83a9921-88a2-4307-b065-fcaf264f08b5&at=APZUnTUayxCXHYIW9zwnGdixotJo%3A1707840156653';
+    const downloadLink = 'https://drive.usercontent.google.com/download?id=1It32jZqvxr1g0mJzP2zP94J1yB6H9Bqd&export=download&authuser=0&confirm=t&uuid=46b559c2-2450-46f8-8f5c-cbdf8319e2b4&at=APZUnTXBDnEBqQuofAiXdTEK1jcv%3A1707841378186';
     const link = document.createElement('a'); // this creates the download link
     link.href = downloadLink; // this creates the download link
     document.body.appendChild(link);
